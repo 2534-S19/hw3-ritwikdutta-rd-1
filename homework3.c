@@ -4,7 +4,7 @@
 #include "myTimer.h"
 
 
-typedef enum {Stable_P,  Stable_R} debounce_state_t;
+typedef enum {Stable_P,  Stable_R} debounce_state_t; //Enum which stores the values of Stable_P and Stable_R
 
 int main(void)
 {
