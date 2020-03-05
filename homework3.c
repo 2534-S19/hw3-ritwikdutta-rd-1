@@ -140,8 +140,6 @@ bool fsmBoosterpackButtonS1(unsigned char buttonhistory)
 
     static debounce_state_t debounce_state = Stable_R;
 
-    bool timerExpired = timer1Expired();
-
     // outputs of the FSM
     bool debouncedButtonStatus;
 
